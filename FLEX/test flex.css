@@ -1,0 +1,17 @@
+body{
+    background-color: #011d16;
+}
+.container{
+    display: flex;
+    background-color: #047857;
+    /* height: 600px; */
+    gap: 10px;
+    /* flex-flow: row wrap-reverse; */
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    width: 200px;
+    height: 200px;
+    background-color: #6ee7b7;
+}
