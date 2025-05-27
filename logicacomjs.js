@@ -27,11 +27,70 @@ let nome_do_usuario = "Ryan";
 let salario = 2500;
 let meses_trad = 8
 let decimo = salario/12*meses_trad
-console.log(nome_do_usuario+"seu decimo é: "+ decimo+ " parabems")*/
+console.log(nome_do_usuario+"seu decimo é: "+ decimo+ " parabems")
 
 
 let salario = Number (prompt ("Digite seu salario"))
 let mestrab = Number(prompt ("Digite seus meses trabalhados"))
 let decimo = Number(prompt ("Digite seus meses trabalhados"))
-console.log(x)
+console.log(x)*/
 
+
+/*SALARIO EM %
+let salario = Number (prompt ("Digite seu salario"))
+if (salario<500)
+{
+    salario= (15/100*salario)+salario
+    alert ("Seu novo salario é:"+salario)
+}
+
+else if (salario >=500 && salario <= 1000) {
+    salario= (10/100*salario)+salario
+    alert ("Seu novo salario é:"+salario)
+}
+
+else {
+  salario= (5/100*salario)+salario
+  alert ("Seu novo salario é:"+salario)
+}*/
+
+
+
+/* IDADE DOS FILMES
+let Idade = Number (prompt ("Digite sua idade"))
+if (Idade<12)
+{
+    alert ("Assista Conteúdo Infantil")
+}
+
+else if (Idade >=12 && Idade <= 17) 
+{
+    alert ("Assista Conteúdo Teen")
+}
+
+else if (Idade >=18 && Idade <= 60) 
+{
+     alert ("Assista Conteúdo Adulto")
+}
+
+else { alert ("Assista conteúdo Sênio")}*/
+
+
+
+let Pontuação = Number (prompt ("Digite sua Pontuação"))
+if (Pontuação <= 1000)
+{
+    alert ("Seu Nível é Novato e Seu XP é de 100 Xp")
+}
+
+else if (Pontuação >=1001 && Pontuação <= 5000) 
+{
+    alert ("Seu Nível é Aprendiz e Seu XP é de 500 Xp")
+}
+
+else if (Pontuação >=5001 && Pontuação <= 10000) 
+{
+     alert ("Seu Nível é Expert e Seu XP é de 1000 Xp")
+}
+
+else { alert ("Seu Nível é Mestre e Seu XP é de 2000 Xp")}
