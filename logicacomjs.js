@@ -98,7 +98,7 @@ else { alert ("Seu Nível é Mestre e Seu XP é de 2000 Xp")}*/
 
 
 
-let valordobasico = 25;
+/*let valordobasico = 25;
 let valordopremium = 40;
 let valordoultra = 60;
 let tresa4 = 5;
@@ -136,4 +136,19 @@ else if (tiposdeassinatura == "Ultra" ){
     }else {
      alert("O seu plano é R$ "+(valordoultra+tresa4))
     }
-}
+}*/
+
+
+let daysOfWeek = ["Caio", "Samuel", 80, 40, 10]
+console.log (daysOfWeek[1])
+console.log (daysOfWeek.length) 
+let nomedoaluno = prompt ("Digite o nome do novo aluno: ")
+daysOfWeek.unshift(nomedoaluno)    
+daysOfWeek.unshift("Miguel", "Arthur", "Alysson", "Nayline") 
+daysOfWeek.push("João")
+daysOfWeek.pop()
+daysOfWeek.shift()
+daysOfWeek.sort()
+daysOfWeek.reverse()
+alert("Atualmente os alunos da escola são:" +daysOfWeek)
+alert(daysOfWeek.indexOf("Arthur"))
