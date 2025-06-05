@@ -139,7 +139,7 @@ else if (tiposdeassinatura == "Ultra" ){
 }*/
 
 
-let daysOfWeek = ["Caio", "Samuel", 80, 40, 10]
+/*let daysOfWeek = ["Caio", "Samuel", 80, 40, 10]
 console.log (daysOfWeek[1])
 console.log (daysOfWeek.length) 
 let nomedoaluno = prompt ("Digite o nome do novo aluno: ")
@@ -151,4 +151,4 @@ daysOfWeek.shift()
 daysOfWeek.sort()
 daysOfWeek.reverse()
 alert("Atualmente os alunos da escola são:" +daysOfWeek)
-alert(daysOfWeek.indexOf("Arthur"))
+alert(daysOfWeek.indexOf("Arthur"))*/
