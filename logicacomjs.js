@@ -63,7 +63,7 @@ if (Idade<12)
     alert ("Assista Conteúdo Infantil")
 }
 
-else if (Idade >=12 && Idade <= 17) 
+if (Idade >=12 && Idade <= 17) 
 {
     alert ("Assista Conteúdo Teen")
 }
@@ -77,6 +77,7 @@ else { alert ("Assista conteúdo Sênio")}*/
 
 
 
+/* PONTUAÇÃO NIVEIS
 let Pontuação = Number (prompt ("Digite sua Pontuação"))
 if (Pontuação <= 1000)
 {
@@ -93,4 +94,46 @@ else if (Pontuação >=5001 && Pontuação <= 10000)
      alert ("Seu Nível é Expert e Seu XP é de 1000 Xp")
 }
 
-else { alert ("Seu Nível é Mestre e Seu XP é de 2000 Xp")}
+else { alert ("Seu Nível é Mestre e Seu XP é de 2000 Xp")}*/
+
+
+
+let valordobasico = 25;
+let valordopremium = 40;
+let valordoultra = 60;
+let tresa4 = 5;
+let maisque4 = 7.50;
+
+let tiposdeassinatura = prompt ("Digite o nome de assinatura que voce deseja:")
+let quantitelas = prompt("Digite quantas telas você terá: ")
+
+
+if (tiposdeassinatura == "Basico" ){
+    if (quantitelas>=3 && quantitelas<=4){
+    alert("O seu plano é R$ "+(valordobasico+tresa4))
+    }else if (quantitelas>=4){
+         alert("O seu plano é R$ "+(valordobasico+maisque4)) 
+    }else {
+     alert("O seu plano é R$ "+(valordobasico+tresa4))
+    }
+}
+
+else if (tiposdeassinatura == "Premium" ){
+    if (quantitelas>=3 && quantitelas<=4){
+    alert("O seu plano é R$ "+(valordopremium+tresa4))
+    }else if (quantitelas>=4){
+         alert("O seu plano é R$ "+(valordopremium+maisque4)) 
+    }else {
+     alert("O seu plano é R$ "+(valordopremium+tresa4))
+    }
+}
+
+else if (tiposdeassinatura == "Ultra" ){
+    if (quantitelas>=3 && quantitelas<=4){
+    alert("O seu plano é R$ "+(valordoultra+tresa4))
+    }else if (quantitelas>=4){
+         alert("O seu plano é R$ "+(valordoultra+maisque4)) 
+    }else {
+     alert("O seu plano é R$ "+(valordoultra+tresa4))
+    }
+}
